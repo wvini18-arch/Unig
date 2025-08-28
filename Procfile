@@ -1,1 +1,1 @@
-web: gunicorn unig.wsgi
+web: gunicorn unig.unig.wsgi
