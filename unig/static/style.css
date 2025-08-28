@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+.card {
+    background: #173d7a;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    padding: 30px;
+    min-width: 320px;
+    max-width: 400px;
+    flex: 1 1 320px;
+}
+table {
+    width: 100%;
+    background: #fff;
+    color: #173d7a;
+    border-radius: 8px;
+    overflow: hidden;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background: #0a2540;
+    color: #fff;
+}
